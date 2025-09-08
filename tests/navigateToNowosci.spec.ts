@@ -3,7 +3,7 @@ import { LoginPage } from '../src/ui/pages/login.page';
 import { NowosciPage } from '../src/ui/pages/nowosci.page';
 
 
-test.only('Navigate to "Nowości"', async ({ page }) => {
+test('Navigate to "Nowości"', async ({ page }) => {
 
   const loginPage = new LoginPage(page);
     await loginPage.open();
