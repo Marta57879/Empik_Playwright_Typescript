@@ -9,7 +9,7 @@ export default defineConfig({
   reporter: 'html',
   use: {
     baseURL: 'https://empik.com',
-    headless: false,
+    headless: true,
     trace: 'on-first-retry',
     viewport: null,
   },
